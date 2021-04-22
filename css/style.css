@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+tr:hover {
+  background-color: #283593 !important; 
+  color: white;
+}
+
+.nav-wrapper {
+  font-weight: bold;
+}
+
+.brand-logo {
+  margin-left: -10px;
+}
+
+.card {
+  margin-top: 20px;
+  padding-top: 1px;
+}
+
+.opening {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.opening-title {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cat {
+  text-align: left !important;
+}
+#teks {
+  margin-top: 13px;
+  margin-left: 7px;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  .activator {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-left: -0% !important;
+  }
+}
